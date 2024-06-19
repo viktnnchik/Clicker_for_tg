@@ -1,0 +1,145 @@
+
+body {
+  background-color: #110A1F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat Alternates', semi-bold;
+}
+
+
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.coin-emoji {
+  font-size: 32px;
+  margin-right: 10px;
+}
+
+.score {
+  font-size: 32px;
+}
+
+.rank {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.clicker {
+  margin-bottom: 20px;
+}
+
+.coin {
+  margin-top: 50px;
+  width: 275px;
+  height: 275px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.coin:active {
+  transform: scale(0.9);
+}
+
+.energy-container {
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.energy-label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #110A1F;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.progress {
+  width: 100%;
+  height: 20px;
+  background-color: #D554E7;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  margin-top: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(213, 84, 231, 0.15);
+  
+  color: white;
+  border: 1px solid #D554E7;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.energy-container-img{
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+  margin-bottom: 10px;
+}
+.stats-container{
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+}
